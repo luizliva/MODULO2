@@ -1,4 +1,4 @@
-produtos = {
+produtos = [
     {'nome': 'p1', 'preco': 13},
     {'nome': 'p2', 'preco': 55.55},
     {'nome': 'p3', 'preco': 5.59},
@@ -9,7 +9,7 @@ produtos = {
     {'nome': 'p8', 'preco': 89.82},
     {'nome': 'p9', 'preco': 12},
     {'nome': 'p10', 'preco': 2.90},
-}
+]
 
 pessoas = [
     {'nome': 'Luiz', 'idade': 32},

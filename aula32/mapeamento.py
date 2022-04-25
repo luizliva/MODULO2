@@ -1,4 +1,6 @@
-from dados import lista
+from dados import produtos, pessoas, lista
 
-lista2 = map(lambda x: x * 2, lista)
-print(list(lista2))
+nomes = map(lambda p: p['nome'], pessoas)
+
+for pessoas in nomes:
+    print(pessoas)
